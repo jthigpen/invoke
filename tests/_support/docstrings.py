@@ -20,3 +20,8 @@ def empty_first_line():
     """
     foo
     """
+
+@task(aliases=('a', 'b'))
+def with_aliases():
+    """ foo
+    """
